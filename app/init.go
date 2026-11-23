@@ -28,5 +28,8 @@ func Initialize() error {
 	}
 	DB = db
 
+	// servive init
+	// walletDbService := service.NewWalletDbService(DB)
+
 	return err
 }
